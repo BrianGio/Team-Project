@@ -1,0 +1,14 @@
+
+
+.clock {
+    position: relative;
+    top: 10%;
+    left: 10%;
+    transform: translateX(-10%) translateY(-10%);
+    color: #17D4FE;
+    font-size: 45px;
+    font-family: Orbitron;
+    letter-spacing: 7px;
+
+
+}

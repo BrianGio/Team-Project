@@ -1,0 +1,97 @@
+<!doctype html>
+<html>
+<head>
+
+
+   <meta charset="utf-8" />
+   <title>Brian's Book Botique</title>
+   <link href="tp_base.css" rel="stylesheet" />
+   <link href="tp_layout2.css" rel="stylesheet" />
+   <script src="tp_shipping.js" defer></script>
+</head>
+
+
+<header>
+<a href="tp_home.html"><img src="BBB.logo.png" alt="Brian's Book Botique" />
+
+<nav>
+<ul>
+<li><a href="tp_home.html">Home</a></li>
+<li><a href="tp_popularbooks.html">Popular Books</a></li>
+<li><a href="tp_shipping.html">Shipping</a></li>
+<li><a href="tp_storehours.html">Store Hours</a></li>
+</ul>
+
+
+</nav>
+<div id="dateNow" class="date"></div>
+<section id="orderSection">
+      <form id="orderForm" name="orderForm">
+        
+        <table id="orderTable">
+           
+           <tr>
+              <td>
+                 <label for="model">Model</label>
+                 <select name="model" id="model">
+				 
+                    <option value="89.95">Small Package 6 Books ($15.95)</option>
+                    <option value="129.95" selected>Medium Package 12 Books ($32.95)</option>
+                    <option value="159.95">Large Package 24 Books ($65.15)</option>
+                 </select>   
+                 <input type="hidden" id="modelName" name="modelName" />
+              </td>
+              <td class="rightA">
+                 <label for="qty">Qty</label>
+                 <select name="qty" id="qty">
+                    <option value="1" selected>1</option>
+                    <option value="2">2</option><option value="3">3</option>
+                    <option value="4">4</option><option value="5">5</option><option value="6">6</option>
+                    <option value="7">7</option><option value="8">8</option><option value="9">9</option>
+                    <option value="10">10</option>
+                 </select>   
+              </td>                 
+              <td>
+                 <input type="text" name="initialCost" id="initialCost" size="10" readonly />
+              </td>
+           </tr>
+           <tr>
+             
+                 <fieldset>
+                    <legend>Shipping Plan</legend>
+                    <label><input type="radio" id="plan_0" name="protection" value="0" checked /> Standard Shipping ($0.00)</label>
+                    <label><input type="radio" id="plan_1" name="protection" value="11.95" /> 1 Day Shipping($12.85)</label>   
+                    <label><input type="radio" id="plan_2" name="protection" value="15.95" /> 3 Day Shipping ($8.95 each)</label> 
+                    <label><input type="radio" id="plan_3" name="protection" value="19.95"  /> 5 Day Shipping ($4.50 each)</label>
+                 </fieldset>
+                
+              
+
+           <tr>
+              <td colspan="2" class="rightA">TOTAL</td>
+              <td>
+                 <input type="text" name="totalCost" id="totalCost" size="10" readonly />
+              </td>
+           </tr>
+        </table>
+        <input type="submit" id="buttonAdd" value="add to cart" />
+
+      </form>
+   </section>   
+
+   
+</header>
+<p>Suspendisse faucibus interdum posuere lorem ipsum dolor sit amet. Lacus viverra vitae congue eu consequat. Auctor urna nunc id cursus metus aliquam. Consectetur adipiscing elit duis tristique sollicitudin. Odio aenean sed adipiscing diam donec adipiscing tristique. Scelerisque in dictum non consectetur a erat. Ut consequat semper viverra nam libero justo laoreet sit. Nisi est sit amet facilisis magna etiam. Iaculis eu non diam phasellus vestibulum lorem sed risus ultricies. Bibendum est ultricies integer quis auctor elit sed vulputate. Dignissim diam quis enim lobortis. Justo laoreet sit amet cursus. Nulla facilisi nullam vehicula ipsum. Eros donec ac odio tempor. Ipsum dolor sit amet consectetur adipiscing elit ut. Lectus proin nibh nisl condimentum id venenatis a. Quis blandit turpis cursus in. Enim neque volutpat ac tincidunt vitae semper quis.</p>
+
+
+
+<body>
+  <header class="logo">
+  </header>
+  
+  <footer>
+    
+   </footer>
+</body>
+
+</html>
